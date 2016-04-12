@@ -9,5 +9,6 @@ function load(pathname, oncomplete) {
   if (typeof oncomplete === 'function') {
     app.once('booted', oncomplete);
   }
+  return app;
 }
 

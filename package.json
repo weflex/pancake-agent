@@ -1,6 +1,6 @@
 {
   "name": "pancake-agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The agent library to execute Pancake Target Code",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "canonical-json": "0.0.4",
     "debug": "2.2.0",
     "depd": "1.1.0",
-    "loopback-boot": "2.18.0",
+    "loopback-boot": "git+https://git@github.com/yorkie/loopback-boot.git",
     "loopback-connector-mongodb": "1.13.3",
     "loopback-datasource-juggler": "2.46.0",
     "nodemailer": "2.3.2",
