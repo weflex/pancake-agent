@@ -1,10 +1,10 @@
 {
   "name": "pancake-agent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The agent library to execute Pancake Target Code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"no test cases\""
+    "test": "PATH=$PATH:node_modules/.bin gulp specs"
   },
   "author": "Yorkie Liu <yorkiefixer@gmail.com>",
   "license": "MIT",
@@ -20,5 +20,15 @@
     "nodemailer": "2.3.2",
     "uid2": "0.0.3",
     "underscore.string": "3.3.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jasmine": "^2.3.0",
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "minimist": "^1.2.0",
+    "supertest": "^1.2.0"
   }
 }
