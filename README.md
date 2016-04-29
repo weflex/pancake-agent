@@ -1,12 +1,20 @@
-# Pancake Agent
+# pancake-agent
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
 [![Downloads][downloads-image]][downloads-url]
 
-The agent library to execute Pancake Target Code, current implementation is copied from
+## Overview
+
+pancake-agent is an agent library to execute the PTC(Pancake Target Code), which is based on
 [strongloop/loopback].
+
+_Pancake_ is a tool to generate PTC(Pancake Target Code) which can be executed by pancake-agent
+and exposes a loopback-compatible API.
+
+_PTC_ is an abbreviation of Pancake Target Code, which is the JSON files collection of an embedable 
+DSL that expresses models what user defined in pancake documents.
 
 ## Installation
 
@@ -22,9 +30,6 @@ const app = require('pancake-agent')(__dirname, () => {
   // - app.models
 });
 ```
-
-This repository 100% keeps to [strongloop/loopback]'s API, for more detail,
-check [StrongLoop Official Documentation](http://apidocs.strongloop.com/).
 
 ## License
 
