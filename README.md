@@ -16,7 +16,7 @@ $ npm install pancake-agent --save
 
 ## Usage
 
-```
+```js
 const app = require('pancake-agent')(__dirname, () => {
   // here we can access:
   // - app.models
